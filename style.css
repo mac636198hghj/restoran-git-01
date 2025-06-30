@@ -34,6 +34,18 @@ h1, h2, h3, h4, p {
     margin: 0px auto;
 }
 
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+}
+
 /* HEADER */
 
 header {
